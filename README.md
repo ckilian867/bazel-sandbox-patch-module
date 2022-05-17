@@ -40,7 +40,7 @@ INFO: 4 processes: 2 internal, 2 processwrapper-sandbox.
 FAILED: Build did NOT complete successfully
 ```
 
-When entering the sandbox and running `ls`, the example directory is present and contains the file I want to patch in:
+When entering the sandbox and running `ls`, the `example` directory is present and contains the file I want to patch in:
 
 ```
 $ cd /home/user/.cache/bazel/_bazel_cjk/1c9ce485b9ebe93d6b96a1f759641852/sandbox/processwrapper-sandbox/16/execroot/__main__ && ls example
