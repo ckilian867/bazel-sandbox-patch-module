@@ -1,6 +1,6 @@
 # bazel-sandbox-patch-module
 
-`Problem.java` is created with package `sun.misc`, which is a package that exists in `jdk.unsupported`. The goal is to patch `jdk.unsupported` to include `Problem.java`
+`Problem.java` is created with package `sun.misc`, which is a package that exists in `jdk.unsupported`. The goal is to patch `jdk.unsupported` to include `Problem.java`.
 In this example, we attempt to do that by including `"--patch-module=jdk.unsupported=example"` in the `javacopts`.
 
 When running a build with `--patch-module` in the `javacopts`, the build succeeds when the Javac strategy is local but fails when sandboxed.
