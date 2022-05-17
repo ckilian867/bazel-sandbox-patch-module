@@ -1,0 +1,2 @@
+# build --strategy=Javac=local
+build --strategy=Javac=sandboxed

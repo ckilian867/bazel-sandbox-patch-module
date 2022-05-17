@@ -1,0 +1,5 @@
+java_library(
+    name = "problem",
+    srcs = ["Problem.java"],
+    javacopts = ["--patch-module=jdk.unsupported=example", "--release 11"],
+)
